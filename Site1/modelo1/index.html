@@ -1,38 +1,30 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
+<html lang="PT-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu primeiro site one page!!</title>
-    <link rel="stylesheet" href="./styles.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-
-    <script type="text/javascript">
-        jQuery(function () {
-          jQuery(window).scroll(function () {
-            if (jQuery(this).scrollTop() > 400) {
-             $("#navbar").addClass("navbar-diferente");
-            } else {
-             $("#navbar").removeClass("navbar-diferente");
-            }
-          });
-        });
-        </script>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>One Page 2</title>
 </head>
-
 <body>
-    <div class="navbar">
-        <a href="#" class="logo"> One Page</a>
-        <ul class="nav">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#portfolio">Portifolio</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </div>
-
-    <div class="banner-area" id="home"></div>
+    <header>
+        <div class="home-area" id="home">
+            <nav>
+                <a href="#" class="logo"> One Page</a>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portifolio</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="home-text">
+                <h1>Seja a mudança que você quer ver no mundo</h1>
+            </div>
+        </div>
+    </header>
     <div class="about-area" id="about">
         <div class="text-part">
             <h1>About Area</h1>
@@ -57,6 +49,20 @@
             <p>AQUI VAI UM TEXTO ENORME SÓ PARA A GENTE VER O QUE ESTÁ ACONTECENDO NO MUNDO TODO SOBRE O CORONA VIRUS</p>
         </div>
     </div>
+
+    <script type="text/javascript">
+        $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                $('nav').addClass('black');
+            } else {
+                $('nav').removeClass('black');
+            }  
+        })
+    </script>
+
+
+
+
 
 </body>
 </html>
