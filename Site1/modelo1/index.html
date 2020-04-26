@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro site one page!!</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        jQuery(function () {
+          jQuery(window).scroll(function () {
+            if (jQuery(this).scrollTop() > 400) {
+             $("#navbar").addClass("navbar-diferente");
+            } else {
+             $("#navbar").removeClass("navbar-diferente");
+            }
+          });
+        });
+        </script>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#" class="logo"> One Page</a>
+        <ul class="nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portifolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="banner-area" id="home"></div>
+    <div class="about-area" id="about">
+        <div class="text-part">
+            <h1>About Area</h1>
+            <p>AQUI VAI UM TEXTO ENORME SÓ PARA A GENTE VER O QUE ESTÁ ACONTECENDO NO MUNDO TODO SOBRE O CORONA VIRUS</p>
+        </div>
+    </div>
+    <div class="portfolio-area" id="portfolio">
+        <div class="text-part">
+            <h1>portfolio Area</h1>
+            <p>AQUI VAI UM TEXTO ENORME SÓ PARA A GENTE VER O QUE ESTÁ ACONTECENDO NO MUNDO TODO SOBRE O CORONA VIRUS</p>
+        </div>
+    </div>
+    <div class="services-area" id="services">
+        <div class="text-part">
+            <h1>Services Area</h1>
+            <p>AQUI VAI UM TEXTO ENORME SÓ PARA A GENTE VER O QUE ESTÁ ACONTECENDO NO MUNDO TODO SOBRE O CORONA VIRUS</p>
+        </div>
+    </div>
+    <div class="contact-area" id="contact">
+        <div class="text-part">
+            <h1>Contact Area</h1>
+            <p>AQUI VAI UM TEXTO ENORME SÓ PARA A GENTE VER O QUE ESTÁ ACONTECENDO NO MUNDO TODO SOBRE O CORONA VIRUS</p>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,103 @@
+
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #d4d7d4;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+}
+
+.navbar-diferente {
+    background-color: rgb(109, 122, 35);
+}
+
+
+
+.nav {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-left: 15%;
+}
+
+.logo {
+    flex: 1 1 auto;
+    margin-left: 10%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+a{
+    margin: 15px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover{
+    color: #000;
+}
+
+.banner-area {
+    position: relative;
+    background-color: #d4d7d4; /*AQUI ERA UMA URL DE IMAGEM*/
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-area, .portfolio-area, .services-area, .contact-area {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 700px;
+}
+
+.text-part{
+    width: 65%;
+    height: 80%;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.about-area, .services-area {
+    background-color: #fefefe;
+}
+.portfolio-area, .contact-area{
+    background-color: #262626;
+    color: #fefefe;
+}
+
