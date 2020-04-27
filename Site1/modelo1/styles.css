@@ -72,6 +72,10 @@ div.home-text h1{
     color: #fff;
 }
 
+/*CAROUSEL*/
+img.img-carousel {
+    opacity: 0;
+}
 
 /*-------------------FIM HOME -----------------------*/
 
