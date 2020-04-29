@@ -77,6 +77,13 @@ img.img-carousel {
     opacity: 0;
 }
 
+.carousel-indicators li {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+  }
+
+
 /*-------------------FIM HOME -----------------------*/
 
 
