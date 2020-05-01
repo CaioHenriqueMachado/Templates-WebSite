@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <title>&lt;Viper X /&gt;</title>
+</head>
+
+<body class="container-fluid p-0 m-0">
+    <div class="topo row justify-content-center text-center py-3 m-0 position-fixed vw-100">
+            <div class="LOGO col-4 col-md-4">
+                <a href="#home" class="d-block text-decoration-none"><h2>Viper X</h2></a>
+            </div>
+
+            <div class="topics col-12 col-md-7 p-0">
+              <nav >
+                    <ul class="MENU list-unstyled d-flex justify-content-end m-0 py-2 font-weight-bolder ">
+                        <li class="mr-2 "><a href="#home" class="p-1 d-block text-uppercase text-decoration-none">Home</a></li>
+                        <li class="mx-2 "><a href="#about" class="p-1 d-block text-uppercase text-decoration-none">About</a></li>
+                        <li class="mx-2 "><a href="#photos" class="p-1 d-block text-uppercase text-decoration-none">Photos</a></li>
+                        <li class="mx-2 "><a href="#services" class="p-1 d-block text-uppercase text-decoration-none">Services</a></li>
+                        <li class="ml-2 "><a href="#contact" class="p-1 d-block text-uppercase text-decoration-none">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-0 col-md-1"></div>
+    </div>
+
+    <!-- INICIO HOME -->
+
+    <div class="home container-fluid bg-success vh-100 p-0" id="home">
+        <!-- BANNER INICIO -->
+          <!-- INICIO DO CAROUSEL -->
+          <div class="container-fluid p-0 col-md">
+            <div id="meuCarousel" class="carousel slide " data-ride="carousel">
+                <!-- INDICADORES -->
+                <!-- <ol class="carousel-indicators">
+                    <li data-target="#meuCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#meuCarousel" data-slide-to="1"></li>
+                    <li data-target="#meuCarousel" data-slide-to="2"></li>
+                </ol> -->
+          <!-- INDICADORES FIM -->
+
+          <!-- SLIDES -->
+            <div class="carousel-inner" >
+                <div class="carousel-item active">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Seja a mundança que quer ver no mundo</h1>
+                    </div>
+                    <img class="d-block w-100 img-carousel apagar" src="./img/bg-2.jpg" alt="Jogo1">
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>O mundo não mudará sozinho, você também não !!</h1>
+                    </div>
+                    <img class="d-block w-100 img-carousel apagar" src="./img/bg-2.jpg" alt="Jogo2" >
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>O mundo não mudará sozinho, você também não !!</h1>
+                    </div>
+                    <img class="d-block w-100 img-carousel apagar" src="./img/bg-2.jpg" alt="Jogo2" >
+                </div>
+            </div>
+
+          <!-- CONTROLADORES -->
+          <!-- <a href="#meuCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-olny">Anterior</span>
+          </a>
+
+          <a href="#meuCarousel" class="carousel-control-next" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-olny">Proximo</span>
+          </a> -->
+        </div>
+      </div>
+    <!-- BANNER FINAL -->
+    </div>
+    <!-- FIM HOME -->
+
+    <!-- INICIO ABOUT -->
+    
+    <div class="container-fluid bg-light vh-100 p-0" id="about">
+        <h1>AQUI JÁ É HOME</h1>
+    </div>
+    
+    <!-- FIM ABOUT -->
+
+    <div class="container-fluid bg-dark vh-100 p-0" id="photos">
+        <h1>AQUI JÁ É HOME</h1>
+    </div>
+    <div class="container-fluid bg-light vh-100 p-0" id="services">
+        <h1>AQUI JÁ É HOME</h1>
+    </div>
+    <div class="container-fluid bg-dark vh-100 p-0" id="contact">
+        <h1>AQUI JÁ É HOME</h1>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                $('div.topo').addClass('corTopo');
+            } else {
+                $('div.topo').removeClass('corTopo');
+            }  
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+html {
+    scroll-behavior: smooth;
+}
+
+div.home {
+    background: linear-gradient(rgba(0,0,100,0.5),rgba(0,0,100,0.5)),url("./img/photo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+div.topo {
+    z-index: 16;
+    
+}
+
+div.topo a{
+    color: whitesmoke;
+    
+}
+
+div.topo li a:hover{
+    color: crimson;
+}
+
+
+.corTopo {
+    background-color: black;
+}
+
+img.apagar {
+    opacity: 0;
+}
+
+.carousel-indicators li {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+}
