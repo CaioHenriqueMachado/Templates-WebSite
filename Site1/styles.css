@@ -37,3 +37,7 @@ img.apagar {
     height: 10px !important;
     border-radius: 50%;
 }
+
+.home, .about, .photos, .services, .contact {
+    padding-top: 150px;
+}
