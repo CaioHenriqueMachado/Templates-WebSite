@@ -31,13 +31,34 @@ div.topo li a:hover{
 img.apagar {
     opacity: 0;
 }
-
+/* Para ficar redondo */
 .carousel-indicators li {
     width: 10px !important;
     height: 10px !important;
     border-radius: 50%;
 }
 
+/* Para topo não atrapalhar na visualização mobile e pc */
 .home, .about, .photos, .services, .contact {
     padding-top: 150px;
+}
+
+
+/* -----------------------------PARTE SERVICES ------------------------*/
+div.conteudo-services h5 {
+    font-size: 14px;
+    transition: 1s;
+}
+
+div.conteudo-services a {
+    text-decoration: none;
+    color: blue;
+}
+
+div.conteudo-services a:hover{
+    color: crimson;
+}
+
+div.conteudo-services a h5:hover{
+    font-size: 15px;
 }
