@@ -2,6 +2,11 @@ html {
     scroll-behavior: smooth;
 }
 
+/*  
+-----------------------------------------------------------
+    TOPO DA PÁGINA INICIO
+-----------------------------------------------------------
+*/
 div.home {
     background: linear-gradient(rgba(0,0,100,0.5),rgba(0,0,100,0.5)),url("./img/photo.jpg");
     background-size: cover;
@@ -39,10 +44,14 @@ img.apagar {
 }
 
 /* Para topo não atrapalhar na visualização mobile e pc */
-.home, .about, .photos, .services, .contact {
+.home, .about, .photos, .services, .contact, .rodape-main {
     padding-top: 150px;
 }
-
+/*  
+-----------------------------------------------------------
+    TOPO DA PÁGINA FIM
+-----------------------------------------------------------
+*/
 
 /* -----------------------------PARTE SERVICES ------------------------*/
 div.conteudo-services h5 {
@@ -62,3 +71,46 @@ div.conteudo-services a:hover{
 div.conteudo-services a h5:hover{
     font-size: 15px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*  
+-----------------------------------------------------------
+    RODAPÉ DA PÁGINA INICIO
+-----------------------------------------------------------
+*/
+
+div.rodape-2 img {
+    width: 30px;
+    height: 30px;
+
+} 
+
+div.rodape-2 a{
+    text-decoration: none;
+    color: whitesmoke;
+} 
+
+div.rodape-2 div{
+    opacity: 50%;
+    transition: 1s;
+} 
+
+div.rodape-2 div:hover{
+    opacity: 100%;
+} 
+
+/*  
+-----------------------------------------------------------
+    RODAPÉ DA PÁGINA FIM
+-----------------------------------------------------------
+*/
