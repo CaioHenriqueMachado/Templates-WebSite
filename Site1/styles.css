@@ -2,13 +2,6 @@ html {
     scroll-behavior: smooth;
 }
 
-body{    
-    font-family: 'Roboto Condensed', sans-serif;
-    overflow-x: hidden;
-}
-    
-h1 { margin:150px auto 30px auto; text-align:left; color:#fff;}
-
 
 /*  
 -----------------------------------------------------------
@@ -28,14 +21,28 @@ div.topo {
 }
 
 div.topo a{
-    color: whitesmoke;
-    
+    color: whitesmoke;  
+}
+
+@media only screen and (max-width: 400px) {
+    div.topo a{
+        color: whitesmoke;
+        font-size: x-small;   
+    }
+
+    div.photos-sub {
+        visibility: hidden;
+    }
+
+    h1 {
+        font-size: xx-large !important;
+    }
+
 }
 
 div.topo li a:hover{
     color: crimson;
 }
-
 
 .corTopo {
     background-color: black;
@@ -92,6 +99,7 @@ div.banner-3 {
     BANNER 
 -----------------------------------------------------------
 */
+
 /*  
 -----------------------------------------------------------
     PHOTOS CAROUSEL
@@ -119,56 +127,12 @@ div.photos .roundabout-list {
     
 }
 
-
-
 div.photos .slider li img {
     position: relative;
 	width: 100%;
     z-index: 8888;
 }
-
-/* 
-@media only screen and (min-width: 800px) {
-    div.photos div.ajuste {
-        width: 50%;
-    }
-    div.photos div.alinhamento{
-        width: 100%;
-        padding-left: 25%;
-    }
-
-} */
-
-
-/* @media only screen and (min-width: 1025px) {
-
-    div.photos .content {
-        width: 800px;
-        margin: auto;
-    }
-
-    div.photos .roundabout-slider {
-    	position: relative;
-    	width: 800px;
-    	margin: 20px auto;
-    }
-
-    div.photos .roundabout-list {
-        width: 800px;
-    }
-
-}
-
-@media only screen and (max-width: 1024px) {
-
-    div.photos h1 {
-        font-size: 60px !important;
-    }
-    div.photos .content {
-        margin: 20px;
-    }
-} */
-/*  
+/*
 -----------------------------------------------------------
     PHOTOS CAROUSEL
 -----------------------------------------------------------
@@ -220,8 +184,6 @@ div.conteudo-services a h5:hover{
     SERVICES FIM
 -----------------------------------------------------------
 */
-
-
 
 /*  
 -----------------------------------------------------------

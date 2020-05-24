@@ -69,8 +69,8 @@ var mobileDetect = function() {
             var defaults = {
                 autoplay: true,
                 autoplaySpeed: 4000,
-                dots: true,
-                arrows: true,
+                dots: false,
+                arrows: false,
                 infinite: true,
                 speed: 300,
                 swipe: true,

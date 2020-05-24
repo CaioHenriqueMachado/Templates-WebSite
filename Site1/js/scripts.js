@@ -1,3 +1,3 @@
 $(document).ready(function(){
-	$('.slider').roundabout({dots: true, infinite: true, speed: 200});
+	$('.slider').roundabout({dots: false, infinite: true, speed: 200});
 });
