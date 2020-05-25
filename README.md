@@ -14,7 +14,7 @@
   <img src="./Site1/assets/desktop.gif" alt="demo-web" height="425" width="660">
   <img src="./Site1/assets/mobile.gif" alt="demo-mobile" height="425">
 </div>
- [VIEW MORE](https://github.com/CaioHenriqueMachado/Templates-WebSite/tree/master/Site1)
+<h3 align="center"><a href="https://github.com/CaioHenriqueMachado/Templates-WebSite/tree/master/Site1">VIEW MORE</a></h3>
 <hr/>
 
 <br>
@@ -27,7 +27,7 @@
   <img src="./Site2/assets/desktop.gif" alt="demo-web" height="425" width="660">
   <img src="./Site2/assets/mobile.gif" alt="demo-mobile" height="425">
 </div>
-<h3 align="center"> [VIEW MORE](https://github.com/CaioHenriqueMachado/Templates-WebSite/tree/master/Site2)</h3>
+<h3 align="center"><a href="https://github.com/CaioHenriqueMachado/Templates-WebSite/tree/master/Site2">VIEW MORE</a></h3>
 <hr/>
 
 ## Features
