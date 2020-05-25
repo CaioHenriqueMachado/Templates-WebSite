@@ -19,7 +19,7 @@
 
 ## Features
 
-This app features all the latest tools and practices in mobile development!
+This app features all the latest tools and practices in development!
 
 - 📄 **HTML** 	      - A mark-up language.
 - 🖌️ **CSS** 	        - Tool to style and design a page.

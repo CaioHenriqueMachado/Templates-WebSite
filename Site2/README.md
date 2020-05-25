@@ -1,12 +1,8 @@
+<br>
 <h1 align="center">
-<br>
-  <img src="./frontend/src/assets/logo.svg" alt="BeTheHero" width="120">
-<br>
-<br>
-Be The Hero
+  SITE MODELO 2
 </h1>
-
-<p align="center">Mobile and web application of monetary donation for NGOs, built in one week Omnistack</p>
+<p align="center">Site developed with the theme of promotion of beauty salon</p>
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
@@ -15,46 +11,27 @@ Be The Hero
 </p>
 
 <div>
-  <img src="./frontend/src/assets/demo_web.gif" alt="demo-web" height="425" width="660">
-  <img src="./mobile/assets/demo_app.gif" alt="demo-mobile" height="425">
+  <img src="./assets/desktop.gif" alt="demo-web" height="425" width="660">
+  <img src="./assets/mobile.gif" alt="demo-mobile" height="425">
 </div>
 
 <hr />
 
 ## Features
 
-This app features all the latest tools and practices in mobile development!
+This app features all the latest tools and practices in development!
 
-- ⚛️ **React Js** 	- A JavaScript library for building user interfaces
-- ⚛️ **React Native** 	- A lib that provides a way to create native apps for Android and iOS
-- 💹 **Node Js** 	- A web framework for Node Js
-- 📄 **SQlite** 		- A cross-platform and open-source Structured Query Language.
-- ☯️ **Insomnia** 	- HTTP request software and with open source.
-- 🔄 **Nodemon** 	- Reload server automatically.
+- 📄 **HTML** 	      - A mark-up language.
+- 🖌️ **CSS** 	        - Tool to style and design a page.
+- 📱 **JavaScript**    - Tool to leave the dynamic page to the customer.
+- 🅱️ **Bootstrap** 	- Framework with design and responsiveness applied to components for better experience.
+- 📘 **JQuery** 	- A library of JavaScript functions that interacts with HTML.
 
 ## Getting started
 
-1. Clone this repo using `git clone https://github.com/CaioHenriqueMachado/BE-THE-HERO-project.git`
-2. Move yourself to the appropriate directory: `cd BeTheHero`<br />
-3. Run `yarn` to install dependencies<br />
-3. Run `npm` to install dependencies<br />
-
-
-### Getting started with the backend server
-
-1. Move yourself to the backend folder: `cd backend`
-2. Run `npm start` to start the server
-
-### Getting started with the frontend app
-
-1. Move yourself to the frontend folder: `cd frontend`
-2. Run `yarn start` to start the web application
-
-### Getting started with the mobile app
-
-1. Move yourself to the mobile folder: `cd mobile`
-2. Run `yarn start` to start the mobile app
-
+1. Clone this repo using `git clone https://github.com/CaioHenriqueMachado/Templates-WebSite.git`
+2. Move yourself to the appropriate directory: `cd Site2`<br />
+3. Open the 'index.html' file in your browser for viewing
 
 ## License
 
