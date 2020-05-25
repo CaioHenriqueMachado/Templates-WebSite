@@ -14,7 +14,7 @@
   <img src="./Site1/assets/desktop.gif" alt="demo-web" height="425" width="660">
   <img src="./Site1/assets/mobile.gif" alt="demo-mobile" height="425">
 </div>
-<h3 align="center"> [VIEW MORE](https://github.com/CaioHenriqueMachado/Templates-WebSite/tree/master/Site1)</h3>
+ [VIEW MORE](https://github.com/CaioHenriqueMachado/Templates-WebSite/tree/master/Site1)
 <hr/>
 
 <br>
