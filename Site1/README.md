@@ -1,6 +1,6 @@
 <br>
 <h1 align="center">
-  SITE MODELO 1
+  WEBSITE TEMPLATE 1
 </h1>
 <p align="center">Website developed with the theme of women's fashion</p>
 

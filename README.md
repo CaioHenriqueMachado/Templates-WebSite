@@ -1,6 +1,6 @@
 <br>
 <h1 align="center">
-  SITE MODELO 1
+  WEBSITE TEMPLATE 1
 </h1>
 <p align="center">Website developed with the theme of women's fashion</p>
 
@@ -14,12 +14,12 @@
   <img src="./Site1/assets/desktop.gif" alt="demo-web" height="425" width="660">
   <img src="./Site1/assets/mobile.gif" alt="demo-mobile" height="425">
 </div>
-<h3> [VIEW MORE](https://github.com/CaioHenriqueMachado/Templates-WebSite/tree/master/Site1)</h3>
+<h3 align="center"> [VIEW MORE](https://github.com/CaioHenriqueMachado/Templates-WebSite/tree/master/Site1)</h3>
 <hr/>
 
 <br>
 <h1 align="center">
-  SITE MODELO 2
+  WEBSITE TEMPLATE 2
 </h1>
 <p align="center">Site developed with the theme of promotion of beauty salon</p>
 
@@ -27,7 +27,7 @@
   <img src="./Site2/assets/desktop.gif" alt="demo-web" height="425" width="660">
   <img src="./Site2/assets/mobile.gif" alt="demo-mobile" height="425">
 </div>
-<h3> [VIEW MORE](https://github.com/CaioHenriqueMachado/Templates-WebSite/tree/master/Site2)</h3>
+<h3 align="center"> [VIEW MORE](https://github.com/CaioHenriqueMachado/Templates-WebSite/tree/master/Site2)</h3>
 <hr/>
 
 ## Features

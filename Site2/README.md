@@ -1,6 +1,6 @@
 <br>
 <h1 align="center">
-  SITE MODELO 2
+  WEBSITE TEMPLATE 2
 </h1>
 <p align="center">Site developed with the theme of promotion of beauty salon</p>
 
