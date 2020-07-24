@@ -15,7 +15,7 @@
   <img src="./assets/desktop.gif" alt="demo-web" height="450" width="100%">
 </div>
 <h1 align="center">Mobile Version</h1>
-<div>
+<div align="center">
   <img src="./assets/mobile.gif" alt="demo-mobile" height="450"  width="30%">
 </div>
 
