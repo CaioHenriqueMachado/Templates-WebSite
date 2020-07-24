@@ -10,8 +10,12 @@
   </a>
 </p>
 
+<h1 align="center">Web Version</h1>
 <div>
   <img src="./assets/desktop.gif" alt="demo-web" height="425" width="660">
+</div>
+<h1 align="center">Mobile Version</h1>
+<div>
   <img src="./assets/mobile.gif" alt="demo-mobile" height="425">
 </div>
 
