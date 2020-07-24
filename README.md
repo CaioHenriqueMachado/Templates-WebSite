@@ -10,9 +10,13 @@
   </a>
 </p>
 
+<h1 align="center">Web Version</h1>
 <div>
-  <img src="./Site1/assets/desktop.gif" alt="demo-web" height="425" width="660">
-  <img src="./Site1/assets/mobile.gif" alt="demo-mobile" height="425">
+  <img src="./Site1/assets/desktop.gif" alt="demo-web" height="450" width="100%">
+</div>
+<h1 align="center">Mobile Version</h1>
+<div>
+  <img src="./Site1/assets/mobile.gif" alt="demo-mobile" height="450" width="30%">
 </div>
 <h3 align="center"><a href="https://github.com/CaioHenriqueMachado/Templates-WebSite/tree/master/Site1">VIEW MORE</a></h3>
 <hr/>
@@ -23,9 +27,13 @@
 </h1>
 <p align="center">Site developed with the theme of promotion of beauty salon</p>
 
+<h1 align="center">Web Version</h1>
 <div>
-  <img src="./Site2/assets/desktop.gif" alt="demo-web" height="425" width="660">
-  <img src="./Site2/assets/mobile.gif" alt="demo-mobile" height="425">
+  <img src="./Site2/assets/desktop.gif" alt="demo-web" height="450" width="100%">
+</div>
+<h1 align="center">Mobile Version</h1>
+<div>
+  <img src="./Site2/assets/mobile.gif" alt="demo-mobile" height="450"width="30%">
 </div>
 <h3 align="center"><a href="https://github.com/CaioHenriqueMachado/Templates-WebSite/tree/master/Site2">VIEW MORE</a></h3>
 <hr/>
