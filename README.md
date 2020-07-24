@@ -1,7 +1,7 @@
 <br>
-<h1 align="center">
-  WEBSITE TEMPLATE 1
-</h1>
+<h1 align="center">WEBSITE TEMPLATE 1</h1>
+<p align="center"><strong><a href="https://caiohenriquemachado.github.io/Templates-WebSite/Site1/">ACESSAR SITE</a></strong></p>
+
 <p align="center">Website developed with the theme of women's fashion</p>
 
 <p align="center">
@@ -25,6 +25,7 @@
 <h1 align="center">
   WEBSITE TEMPLATE 2
 </h1>
+<p align="center"><strong><a href="https://caiohenriquemachado.github.io/Templates-WebSite/Site2/">ACESSAR SITE</a></strong></p>
 <p align="center">Site developed with the theme of promotion of beauty salon</p>
 
 <h1 align="center">Web Version</h1>
