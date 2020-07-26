@@ -371,35 +371,7 @@ div.banner-4 {
 -----------------------------------------------------------
     PHOTOS CAROUSEL
 -----------------------------------------------------------
-*/
-/* div.photos a.button {
-  color: #aa0000;
-  padding: 10px 20px;
-  margin: 0px 10px 10px;
-  display: inline-block;
-  text-decoration: none;
-  font-size: 24px;
-  font-weight: normal;
-  font-family: Pacifico;
-  text-shadow: 1px 1px 0px #dddddd;
-}
-
-div.photos .roundabout-list { background-color: #fff; }
-
-div.photos .roundabout-list {
-  z-index: 9999;
-  border: 4px solid white;
-  box-shadow:  0 8px 6px -8px black;
-
-  
-}
-
-div.photos .slider li img {
-  position: relative;
-width: 100%;
-  z-index: 8888;
-} */
-
+ */
 
 #items-wrapper-carousel {
   width: 100%;
