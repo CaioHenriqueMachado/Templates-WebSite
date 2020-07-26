@@ -6,10 +6,10 @@ menuIcon.onclick = function(){
 	menuIcon.classList.toggle("change");
 	
 	if ( sideNav.style.right == "-110px" ) {
-			sideNav.style.right = "0px"
+    sideNav.style.right = "0px"
 	}
 	else {
-			sideNav.style.right = "-110px"
+    sideNav.style.right = "-110px"
 	}
 }
 
@@ -31,4 +31,4 @@ setInterval(function(){
   count += 300
   if(count > 2400) count = 0
   document.querySelector("#items-carousel").scrollTo(count, 0);
-}, 5000);
+}, 2000);

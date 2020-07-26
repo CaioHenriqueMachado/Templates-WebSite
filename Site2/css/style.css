@@ -1,91 +1,83 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
 
 *{
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-}
-
-html {
-    /* background-color: rgba(128, 128, 128, 0.3) */
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: gray !important;
-    font: 400 14px Roboto, sans-serif !important;
-    -webkit-font-smoothing: antialiased !important;
+  background-color: gray !important;
+  font: 400 14px Roboto, sans-serif !important;
+  -webkit-font-smoothing: antialiased !important;
 }
 /* Foi colocado abaixo novamente porque os campos não pegam font da Body */
 input, button, textarea {
-    font: 400 18px Roboto, sans-serif !important;
+  font: 400 18px Roboto, sans-serif !important;
 }
 
 button, a {
-    cursor: pointer !important;
+  cursor: pointer !important;
 }
 
 /* FONT */
-
 @media only screen and (max-width: 400px) {
-a{
+  a{
     font-size: x-small;   
-}
-div.photos-sub {
+  }
+  div.photos-sub {
     visibility: hidden;
-}
+  }
 
-h1 {
+  h1 {
     font-size: xx-large !important;
+  }
 }
-
-}
-
 
 /*  
 -----------------------------------------------------------
 MENU
 -----------------------------------------------------------
 */
-
 #sideNav {
-    width: 110px;
-    height: 100vh;
-    position: fixed;
-    right: 0;
-    top: 0;
-    background-color: gray;
-    z-index: 2;
-    transition: .5s;
+  width: 110px;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: gray;
+  z-index: 2;
+  transition: .5s;
 }
 
 nav#sideNav ul {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 nav#sideNav ul li {
-    list-style: none;
-    margin: 40px 20px;
-    display: block;
+  list-style: none;
+  margin: 40px 20px;
+  display: block;
 }
 
 nav#sideNav ul li a {
-    text-decoration: none;
-    color: black
+  text-decoration: none;
+  color: black
 }
 
 /* ICON */
 
 .menu-icon {
-    display: inline-block;
-    cursor: pointer;
-    position: fixed;
-    right: 20px;
-    top: 10px;
-    z-index: 9999;
-    background-color: rgba(127, 127, 127, 0.3);
-    padding: 5px 5px;
-    border-radius: 10px;
-  }
+  display: inline-block;
+  cursor: pointer;
+  position: fixed;
+  right: 20px;
+  top: 10px;
+  z-index: 9999;
+  background-color: rgba(127, 127, 127, 0.3);
+  padding: 5px 5px;
+  border-radius: 10px;
+}
   
 .bar1, .bar2, .bar3 {
   width: 35px;
@@ -112,19 +104,11 @@ nav#sideNav ul li a {
   -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
   transform: rotate(45deg) translate(-8px, -8px) ;
 }
-
-/*  
------------------------------------------------------------
-    MENU
------------------------------------------------------------
-*/
-
 /*  
 -----------------------------------------------------------
     REDES SOCIAIS
 -----------------------------------------------------------
 */
-
 div.redes-sociais {
   position: fixed;
   width: 50px;
@@ -274,12 +258,6 @@ div.redes-sociais ul li:hover:nth-child(6) a:after{
 }
 /*  
 -----------------------------------------------------------
-  REDES SOCIAIS
------------------------------------------------------------
-*/
-
-/*  
------------------------------------------------------------
   HOME
 -----------------------------------------------------------
 */
@@ -290,13 +268,6 @@ div.home {
   background-position: center;
   background-repeat: no-repeat;
 }
-
-/*  
------------------------------------------------------------
-  HOME
------------------------------------------------------------
-*/
-
 /*  
 -----------------------------------------------------------
   ABOUT
@@ -307,7 +278,6 @@ div.about-items i {
   font-size: 40px;
   font-weight: 40px;
 }
-
 
 div.about-items div {
   transition: 1s;
@@ -324,19 +294,11 @@ div.about-items h5 {
 div.about-items div:hover {
   background: violet !important;
 }
-
-/*  
------------------------------------------------------------
-  ABOUT
------------------------------------------------------------
-*/
-
 /*  
 -----------------------------------------------------------
   BANNER
 -----------------------------------------------------------
 */
-
 /* MODO PARALLAX */
 div.banner-2 {
   background: url(../img/banner2.jpg) no-repeat fixed center;
@@ -363,16 +325,9 @@ div.banner-4 {
 }
 /*  
 -----------------------------------------------------------
-  BANNER
------------------------------------------------------------
-*/
-
-/*  
------------------------------------------------------------
     PHOTOS CAROUSEL
 -----------------------------------------------------------
  */
-
 #items-wrapper-carousel {
   width: 100%;
 }
@@ -401,14 +356,6 @@ div.item-carousel img {
   height: 100%;
   object-fit: cover;
 }
-/*
------------------------------------------------------------
-  PHOTOS CAROUSEL
------------------------------------------------------------
-*/
-
-
-
 /*  
 -----------------------------------------------------------
 TEAM
@@ -417,9 +364,3 @@ TEAM
 div.team img{
   height: 50vh;
 }
-
-/*  
------------------------------------------------------------
-TEAM
------------------------------------------------------------
-*/
